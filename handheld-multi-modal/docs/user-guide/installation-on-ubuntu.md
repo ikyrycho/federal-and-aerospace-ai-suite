@@ -27,11 +27,13 @@ Edge Pack provides the platform-level services (EP-IPU, EP-Manageability, and EP
 suite blueprint runs on. Pass `--edgepack` when installing the blueprint to install them first:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/main/frameworks/oep-installer-cli/rendered/openedge-cli \
-  | bash -s -- install handheld_blueprint --edgepack
+curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/main/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
+sudo chmod +x /tmp/openedge-cli
+sudo mv /tmp/openedge-cli /usr/bin
+openedge-cli install handheld_blueprint --edgepack
 ```
 
-After the first invocation, the installer saves itself under `~/.local/bin/openedge-cli`, so
+After the first invocation, the installer saves itself under `/usr/bin/openedge-cli`, so
 subsequent commands can call `openedge-cli` directly instead of piping from `curl`.
 
 During installation, system will reboot. After it is back online, follow instructions from installer to resume installation.
