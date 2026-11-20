@@ -36,7 +36,7 @@ openedge-cli install handheld_blueprint --edgepack
 After the first invocation, the installer saves itself under `/usr/bin/openedge-cli`, so
 subsequent commands can call `openedge-cli` directly instead of piping from `curl`.
 
-During installation, system will reboot. After it is back online, follow instructions from installer to resume installation.
+During installation, system might reboot. After it is back online, follow instructions from installer to resume installation. If system didn't reboot, go to next step.
 
 ## Step 2: Install the Handheld Suite
 
