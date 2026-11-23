@@ -64,6 +64,28 @@ Verify the Docker daemon's proxy configuration:
 docker info | grep -i proxy
 ```
 
+## Installing application
+
+If `edgepack-cli` wasn't installed in previous steps, start by installing it:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/main/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
+sudo chmod +x /tmp/openedge-cli
+sudo mv /tmp/openedge-cli /usr/bin
+```
+
+After that, install application:
+
+```bash
+openedge-cli install handheld_multi_modal
+```
+
+After installation is done, start application by running
+
+```bash
+openedge-cli start handheld_multi_modal
+```
+
 ## Deploying the Application with different settings
 
 If you want to use application with non-default settings, that are described in [openedge-cli start](./installation-on-ubuntu.md#step-3-start-the-application), you can modify options as following:
@@ -71,15 +93,7 @@ If you want to use application with non-default settings, that are described in 
 Go into application folder
 
 ```bash
-cd handheld-multi-modal
-```
-
-Optionally, export a Hugging Face token. The configured models are public and do not require
-it; a token only helps when Hugging Face rate-limits anonymous downloads. Do not store the
-token in configuration files or commit it to version control.
-
-```bash
-export HF_TOKEN=hf_...
+cd ~/.local/open-edge-platform/handheld-multi-modal
 ```
 
 Start the application with the looping demo camera feeds:

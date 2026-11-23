@@ -34,44 +34,9 @@ openedge-cli install handheld_blueprint --edgepack
 ```
 
 After the first invocation, the installer saves itself under `/usr/bin/openedge-cli`, so
-subsequent commands can call `openedge-cli` directly instead of piping from `curl`.
+subsequent commands can call `openedge-cli` directly.
 
-During installation, system might reboot. After it is back online, follow instructions from installer to resume installation. If system didn't reboot, go to next step.
-
-## Step 2: Install the Handheld Suite
-
-Install the full Federal and Aerospace handheld profile, which includes the handheld platform,
-application and required drivers and models.
-
-```bash
-openedge-cli install federal_and_aerospace_ai_suite_handheld
-```
-
-To install an individual component instead of the full profile, for example the handheld
-application only:
-
-```bash
-openedge-cli install handheld_multi_modal
-```
-
-## Step 3: Start the Application
-
-Profiles cannot be started as a group; start the individual component:
-
-```bash
-openedge-cli start handheld_multi_modal
-```
-
-Stop it with:
-
-```bash
-openedge-cli stop handheld_multi_modal
-```
-
-## Step 4: Validate the Installation
-
-Continue with [Access Application User Interface](access-application.md) to open the operator
-console.
+During installation, system might reboot. After it is back online, follow instructions from installer to resume installation. If system didn't reboot or installation is done after reboot, go to [Application Installation step](../deploy-applications.md).
 
 ## Removing Components
 
@@ -86,6 +51,4 @@ openedge-cli remove federal_and_aerospace_ai_suite_handheld --remove-all
 ## Related Guides
 
 - [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
-- [Advanced Image Customization](./infrastructure/advanced-image-customization.md) — OS image build and bootable-USB provisioning path.
-- [Install OEP SDKs](install-oep-sdks.md) — verify hardware accelerators on a provisioned target.
-- [Install Handheld Multi-Modal Application](deploy-applications.md) — manual `docker compose` deployment path.
+- [Advanced Image Customization](./advanced-image-customization.md) — OS image build and bootable-USB provisioning path.
