@@ -35,7 +35,7 @@ inference runs locally and data does not leave the device.
 
 The Handheld Multi-Modal application is deployed on top of the Edge Node Infrastructure
 software - an edge computing platform, which enables hardware acceleration capabilities.
-See [Infrastructure Setup](infrastructure-setup.md) for build and provisioning steps.
+See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Advanced Image Customization](./infrastructure/advanced-image-customization.md) for build and provisioning steps.
 
 ## Deployment and Usage
 
@@ -118,11 +118,11 @@ application-level pipeline generation with Intel DL Streamer. See
 
 Infrastructure Setup <infrastructure-setup.md>
 Install OEP SDKs <install-oep-sdks.md>
-System requirements <system-requirements.md>
-Installation on Ubuntu <installation-on-ubuntu.md>
-Advanced Image Customization <advanced-image-customization.md>
-Build on MacOS <build-on-macos-x86.md> 
-Platform Capabilities <platform-capabilities.md>
+System requirements <./infrastructure/system-requirements.md>
+Installation on Ubuntu </infrastructure/installation-on-ubuntu.md>
+Advanced Image Customization </infrastructure/advanced-image-customization.md>
+Build on MacOS </infrastructure/build-on-macos-x86.md> 
+Platform Capabilities </infrastructure/platform-capabilities.md>
 Install Handheld Multi-Modal Application <deploy-applications.md>
 Access Application User Interface <access-application.md>
 Operator Guide <operator-guide.md>
