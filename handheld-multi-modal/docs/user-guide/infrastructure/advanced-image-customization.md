@@ -14,7 +14,7 @@ distros on x86_64.
 > [!NOTE]
 > This path is intended for advanced users who need fine-grained control over disk
 > layout, installed packages, and package repositories. Most users can start with the simpler
-> path, [using the standard build](../infrastructure-setup.md#step-2-build-the-os-image).
+> path, [using standrd Ubuntu image](../installation-on-ubuntu.md).
 
 This article will show you how to:
 

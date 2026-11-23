@@ -11,7 +11,7 @@ the [Open Edge Platform (OEP) CLI Installer](https://github.com/open-edge-platfo
 components and the Federal and Aerospace handheld suite without a manual OS image build.
 
 For the image-build and bootable-USB provisioning path instead, see
-[Infrastructure Setup](infrastructure-setup.md) and [Install OEP SDKs](install-oep-sdks.md).
+[Image customization](./infrastructure/advanced-image-customization.md) and [Install OEP SDKs](install-oep-sdks.md).
 
 ## Prerequisites
 
@@ -86,6 +86,16 @@ openedge-cli remove federal_and_aerospace_ai_suite_handheld --remove-all
 ## Related Guides
 
 - [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
-- [Infrastructure Setup](infrastructure-setup.md) — OS image build and bootable-USB provisioning path.
+- [Advanced Image Customization](./infrastructure/advanced-image-customization.md) — OS image build and bootable-USB provisioning path.
 - [Install OEP SDKs](install-oep-sdks.md) — verify hardware accelerators on a provisioned target.
 - [Install Handheld Multi-Modal Application](deploy-applications.md) — manual `docker compose` deployment path.
+
+
+<!--hide_directive
+:::{toctree}
+:hidden:
+
+DL Streamer Pipelines Guide <infrastructure/build-dlstreamer-pipelines.md>
+Infrastructure AI Agent Integration <infrastructure/agent-skills.md>
+:::
+hide_directive-->
