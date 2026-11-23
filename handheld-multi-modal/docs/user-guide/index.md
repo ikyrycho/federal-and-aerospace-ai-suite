@@ -41,17 +41,13 @@ See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Advanced Image Cus
 
 Follow these steps to deploy the Handheld (Soldier System) Blueprint:
 
-1. [Infrastructure Setup](./infrastructure/advanced-image-customization.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
+1. [Install on Ubuntu](./infrastructure/installation-on-ubuntu.md) or [Advanced image Customization](./infrastructure/advanced-image-customization.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
 2. [Install OEP SDKs](install-oep-sdks.md) — Verify hardware accelerators and install the OEP Vision AI SDK on the provisioned target.
 3. [Install Handheld Multi-Modal Application](deploy-applications.md) — Download and deploy the application stack.
 4. [Access Application User Interface](access-application.md) — Open the operator console locally or through an SSH tunnel.
 5. [Operator Guide](operator-guide.md) — Use cameras, evidence, the assistant, mission documents, alerts, and voice.
 6. [Application Operations](application-operations.md) — Lifecycle commands, offline copy to other devices, and model changes.
 7. [Benchmarks](benchmarks.md) — Benchmark AI workloads across the available hardware.
-
-Alternatively, on an Ubuntu 24.04 target, use [Installation on Ubuntu](installation-on-ubuntu.md) to
-install the Edge Pack components and the handheld suite with the OEP CLI Installer in place of
-steps 1–3.
 
 ## Features
 

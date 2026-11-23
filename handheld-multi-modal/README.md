@@ -12,7 +12,7 @@ all inference runs locally, the application works offline, and data does not lea
 
 The application can be deployed on top of the Edge Node Infrastructure software - an edge
 computing platform, which enables hardware acceleration capabilities. See
-[Infrastructure Setup](docs/user-guide/infrastructure/advanced-image-customization.md) for build and provisioning steps.
+[Infrastructure Setup](docs/user-guide/infrastructure-setup.md) for build and provisioning steps.
 
 ![Operator console: live camera with detection boxes, object tracks with evidence images, open alerts, model placement, and resource telemetry with per-service CPU and memory use](docs/user-guide/_assets/operator-ui.jpg)
 
