@@ -116,6 +116,7 @@ application-level pipeline generation with Intel DL Streamer. See
 :::{toctree}
 :hidden:
 
+Installation <installation.md>
 Install Handheld Multi-Modal Application <deploy-applications.md>
 Install OEP SDKs <install-oep-sdks.md>
 Access Application User Interface <access-application.md>
