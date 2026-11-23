@@ -116,15 +116,10 @@ application-level pipeline generation with Intel DL Streamer. See
 :::{toctree}
 :hidden:
 
-Install OEP SDKs <install-oep-sdks.md>
-System requirements <./infrastructure/system-requirements.md>
-Installation on Ubuntu <./installation-on-ubuntu.md>
-Advanced Image Customization <./infrastructure/advanced-image-customization.md>
-Build on MacOS <./infrastructure/build-on-macos-x86.md>
-Platform Capabilities <./infrastructure/platform-capabilities.md>
-Troubleshooting <./infrastructure/troubleshooting.md>
 Install Handheld Multi-Modal Application <deploy-applications.md>
+Install OEP SDKs <install-oep-sdks.md>
 Access Application User Interface <access-application.md>
+Platform Capabilities <./infrastructure/platform-capabilities.md>
 Operator Guide <operator-guide.md>
 Application Operations <application-operations.md>
 Benchmarks <benchmarks.md>
