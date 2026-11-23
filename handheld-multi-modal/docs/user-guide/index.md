@@ -35,13 +35,13 @@ inference runs locally and data does not leave the device.
 
 The Handheld Multi-Modal application is deployed on top of the Edge Node Infrastructure
 software - an edge computing platform, which enables hardware acceleration capabilities.
-See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Advanced Image Customization](./infrastructure/advanced-image-customization.md) for build and provisioning steps.
+See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Customized Image](./infrastructure/customized-image.md) for build and provisioning steps.
 
 ## Deployment and Usage
 
 Follow these steps to deploy the Handheld (Soldier System) Blueprint:
 
-1. [Install on Ubuntu](./infrastructure/installation-on-ubuntu.md) or [Advanced image Customization](./infrastructure/advanced-image-customization.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
+1. [Install on Ubuntu](./infrastructure/installation-on-ubuntu.md) or [Customized Image](./infrastructure/customized-image.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
 2. [Install OEP SDKs](install-oep-sdks.md) — Verify hardware accelerators and install the OEP Vision AI SDK on the provisioned target.
 3. [Install Handheld Multi-Modal Application](deploy-applications.md) — Download and deploy the application stack.
 4. [Access Application User Interface](access-application.md) — Open the operator console locally or through an SSH tunnel.

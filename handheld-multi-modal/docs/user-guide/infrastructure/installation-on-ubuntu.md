@@ -11,15 +11,13 @@ the [Open Edge Platform (OEP) CLI Installer](https://github.com/open-edge-platfo
 components and the Federal and Aerospace handheld suite without a manual OS image build.
 
 For the image-build and bootable-USB provisioning path instead, see
-[Image customization](./infrastructure/advanced-image-customization.md) and [Install OEP SDKs](install-oep-sdks.md).
+[Customized Image](./infrastructure/customized-image.md) and [Install OEP SDKs](install-oep-sdks.md).
 
 ## Prerequisites
 
 - Ubuntu 24.04 LTS target with Internet access (or a configured proxy).
 - Sudo access on the target. The installer prompts for the sudo password unless
   `SUDO_PASSWORD` or `SUDO_ASKPASS` is set, or passwordless sudo is granted.
-- See [System Requirements](infrastructure/system-requirements.md) for the minimum hardware and
-  validated platforms.
 
 ## Step 1: Install the Edge Pack Components
 
@@ -51,4 +49,4 @@ openedge-cli remove federal_and_aerospace_ai_suite_handheld --remove-all
 ## Related Guides
 
 - [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
-- [Advanced Image Customization](./advanced-image-customization.md) — OS image build and bootable-USB provisioning path.
+- [Customized Image](./infrastructure/customized-image.md) — OS image build and bootable-USB provisioning path.
