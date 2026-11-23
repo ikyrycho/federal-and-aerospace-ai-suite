@@ -88,7 +88,7 @@ openedge-cli start handheld_multi_modal
 
 ## Deploying the Application with different settings
 
-If you want to use application with non-default settings, that are described in [openedge-cli start](./installation-on-ubuntu.md#step-3-start-the-application), you can modify options as following:
+If you want to use application with non-default settings, that are described in [openedge-cli start](./infrastructure/installation-on-ubuntu.md#step-3-start-the-application), you can modify options as following:
 
 Go into application folder
 

@@ -14,7 +14,7 @@ distros on x86_64.
 > [!NOTE]
 > This path is intended for advanced users who need fine-grained control over disk
 > layout, installed packages, and package repositories. Most users can start with the simpler
-> path, [using standard Ubuntu image](../installation-on-ubuntu.md).
+> path, [using standard Ubuntu image](./installation-on-ubuntu.md).
 
 This article will show you how to:
 

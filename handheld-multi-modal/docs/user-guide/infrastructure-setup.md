@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 # Infrastructure Setup
 
 There are 2 ways to prepare needed infrastructure:
-1. Install [Edgepack](platform-software/edge-pack/index.html) on Canonical's Ubuntu - recommended for demo or development deployments. This way is covered in [Installation on Ubuntu](./installation-on-ubuntu.md).
+1. Install [Edgepack](platform-software/edge-pack/index.html) on Canonical's Ubuntu - recommended for demo or development deployments. This way is covered in [Installation on Ubuntu](./infrastructure/installation-on-ubuntu.md).
 2. Create customized ISO image that will contain all dependencies from [Edgepack](platform-software/edge-pack/index.html) and can be easily installed across multiple computers. Steps are documented in [Customized Image](./infrastructure/customized-image.md).
    
 Edgepack packages and how they could be used are documented in [Infrastructure capabilities](./infrastructure/platform-capabilities.md).
@@ -18,7 +18,7 @@ If you have issues, take a look at [Troubleshooting guide](./infrastructure/plat
 :::{toctree}
 :hidden:
 
-Installation on Ubuntu <./infrastructre/installation-on-ubuntu.md>
+Installation on Ubuntu <./infrastructure/installation-on-ubuntu.md>
 Customized Image <./infrastructure/customized-image.md>
 Infrastructure Capabilities <./infrastructure/platform-capabilities.md>
 Troubleshooting <./infrastructure/troubleshooting.md>

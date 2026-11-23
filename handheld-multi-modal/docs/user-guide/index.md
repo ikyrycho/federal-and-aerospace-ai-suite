@@ -35,7 +35,7 @@ inference runs locally and data does not leave the device.
 
 The Handheld Multi-Modal application is deployed on top of the Edge Node Infrastructure
 software - an edge computing platform, which enables hardware acceleration capabilities.
-See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Customized Image](./infrastructure/customized-image.md) for build and provisioning steps.
+See [Installation on Ubuntu](./infrastructure/installation-on-ubuntu.md) or [Customized Image](./infrastructure/customized-image.md) for build and provisioning steps.
 
 ## Deployment and Usage
 

@@ -11,7 +11,7 @@ the [Open Edge Platform (OEP) CLI Installer](https://github.com/open-edge-platfo
 components and the Federal and Aerospace handheld suite without a manual OS image build.
 
 For the image-build and bootable-USB provisioning path instead, see
-[Customized Image](./infrastructure/customized-image.md) and [Install OEP SDKs](install-oep-sdks.md).
+[Customized Image](./customized-image.md) and [Install OEP SDKs](install-oep-sdks.md).
 
 ## Prerequisites
 
@@ -49,4 +49,4 @@ openedge-cli remove federal_and_aerospace_ai_suite_handheld --remove-all
 ## Related Guides
 
 - [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
-- [Customized Image](./infrastructure/customized-image.md) — OS image build and bootable-USB provisioning path.
+- [Customized Image](./customized-image.md) — OS image build and bootable-USB provisioning path.
