@@ -13,7 +13,6 @@ Edgepack packages and how they could be used are documented in [Infrastructure c
 
 If you have issues, take a look at [Troubleshooting guide](./infrastructure/platform-capabilities.md).
 
-```
 <!--hide_directive
 :::{toctree}
 :hidden:
