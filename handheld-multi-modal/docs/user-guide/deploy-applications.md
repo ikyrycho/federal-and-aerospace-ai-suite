@@ -5,7 +5,7 @@ SPDX-License-Identifier: Apache-2.0
 
 # Handheld Multi-Modal Application Deployment
 
-This guide provides instructions on how to deploy the Handheld Multi-Modal application on a
+This guide provides instructions on how to deploy the Handheld Multi-Modal application with custom settings on a
 local machine.
 
 ## Prerequisites
@@ -64,18 +64,13 @@ Verify the Docker daemon's proxy configuration:
 docker info | grep -i proxy
 ```
 
-## Deploying the Application
+## Deploying the Application with different settings
 
-Download the compressed file:
+If you want to use application with non-default settings, that are described in [openedge-cli start](./installation-on-ubuntu.md#step-3-start-the-application), you can modify options as following:
 
-```bash
-curl -OjL https://github.com/open-edge-platform/federal-and-aerospace-ai-suite/releases/download/fedaero-latest/handheld-multi-modal.zip
-```
-
-Decompress the downloaded file and enter the application directory:
+Go into application folder
 
 ```bash
-unzip handheld-multi-modal.zip
 cd handheld-multi-modal
 ```
 
