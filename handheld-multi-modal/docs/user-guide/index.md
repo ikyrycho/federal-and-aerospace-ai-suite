@@ -115,12 +115,10 @@ application-level pipeline generation with Intel DL Streamer. See
 <!--hide_directive
 :::{toctree}
 :hidden:
-
-Installation <installation.md>
+Infrastructure Setup <infrastructure-setup.md>
 Install Handheld Multi-Modal Application <deploy-applications.md>
 Install OEP SDKs <install-oep-sdks.md>
 Access Application User Interface <access-application.md>
-Platform Capabilities <./infrastructure/platform-capabilities.md>
 Operator Guide <operator-guide.md>
 Application Operations <application-operations.md>
 Benchmarks <benchmarks.md>

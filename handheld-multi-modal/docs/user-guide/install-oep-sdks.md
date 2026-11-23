@@ -9,11 +9,11 @@ This page covers installing the OEP Vision AI SDK on a provisioned Handheld (Sol
 
 The provisioned image ships with system-level dependencies only — kernel, GPU/NPU drivers, Docker Engine, and container device plugins. The OEP Vision AI SDK, DL Streamer container images, sample models, and OpenVINO Python runtime must be installed on the target as described below.
 
-For image build and platform provisioning, see [Advanced Image Customization](./infrastructure/advanced-image-customization.md).
+For image build and platform provisioning, see [Infrastructure Setup](./infrastructure-setup.md).
 
 ## Prerequisites
 
-- Handheld platform provisioned per [Advanced Image Customization](./infrastructure/advanced-image-customization.md).
+- Handheld platform provisioned per [Infrastructure Setup](./infrastructure-setup.md).
 - Passwordless SSH or console access to the target.
 - Internet connectivity (or configured proxy) on the target for package and container image downloads.
 - Minimum 20 GB free disk space for SDK content, images, and sample models.
