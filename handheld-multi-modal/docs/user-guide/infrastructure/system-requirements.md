@@ -90,6 +90,6 @@ The target system is the Intel edge node on which the provisioned OS and workloa
 ### Validation
 
 - Ensure all dependencies are installed and configured before proceeding to
-  [Infrastructure Setup](../infrastructure-setup.md)
+  [Advanced Image Customization](./advanced-image-customization.md)
 - Continue with [Install OEP SDKs](../install-oep-sdks.md)
 - Then deploy the [Handheld Multi-Modal Application](../deploy-applications.md)

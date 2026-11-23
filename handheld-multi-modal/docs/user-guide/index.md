@@ -41,7 +41,7 @@ See [Installation on Ubuntu](./installation-on-ubuntu.md) or [Advanced Image Cus
 
 Follow these steps to deploy the Handheld (Soldier System) Blueprint:
 
-1. [Infrastructure Setup](infrastructure-setup.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
+1. [Infrastructure Setup](./infrastructure/advanced-image-customization.md) — Build the OS image, flash it to a bootable USB, and validate the provisioned platform.
 2. [Install OEP SDKs](install-oep-sdks.md) — Verify hardware accelerators and install the OEP Vision AI SDK on the provisioned target.
 3. [Install Handheld Multi-Modal Application](deploy-applications.md) — Download and deploy the application stack.
 4. [Access Application User Interface](access-application.md) — Open the operator console locally or through an SSH tunnel.
@@ -116,12 +116,11 @@ application-level pipeline generation with Intel DL Streamer. See
 :::{toctree}
 :hidden:
 
-Infrastructure Setup <infrastructure-setup.md>
 Install OEP SDKs <install-oep-sdks.md>
 System requirements <./infrastructure/system-requirements.md>
-Installation on Ubuntu <./infrastructure/installation-on-ubuntu.md>
+Installation on Ubuntu <./installation-on-ubuntu.md>
 Advanced Image Customization <./infrastructure/advanced-image-customization.md>
-Build on MacOS <./infrastructure/build-on-macos-x86.md> 
+Build on MacOS <./infrastructure/build-on-macos-x86.md>
 Platform Capabilities <./infrastructure/platform-capabilities.md>
 Troubleshooting <./infrastructure/troubleshooting.md>
 Install Handheld Multi-Modal Application <deploy-applications.md>
