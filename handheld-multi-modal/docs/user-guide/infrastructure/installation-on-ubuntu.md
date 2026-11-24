@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 # Installation on Ubuntu
 
 This guide installs the Handheld (Soldier System) Blueprint on an Ubuntu 24.04 target using
-the [Open Edge Platform (OEP) CLI Installer](https://github.com/open-edge-platform/edge-ai-libraries/tree/main/frameworks/oep-installer-cli)
+the [Open Edge Platform (OEP) CLI Installer](https://github.com/open-edge-platform/edge-ai-libraries/tree/release-2026.3.0/frameworks/oep-installer-cli)
 (`openedge-cli`). It is a single self-contained shell script that installs the Intel Edge Pack
 components and the Federal and Aerospace handheld suite without a manual OS image build.
 
@@ -25,7 +25,7 @@ Edge Pack provides the platform-level services (EP-IPU, EP-Manageability, and EP
 suite blueprint runs on. Pass `--edgepack` when installing the blueprint to install them first:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/main/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
+curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/release-2026.3.0/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
 sudo chmod +x /tmp/openedge-cli
 sudo mv /tmp/openedge-cli /usr/bin
 openedge-cli install handheld_blueprint --edgepack
@@ -48,5 +48,5 @@ openedge-cli remove federal_and_aerospace_ai_suite_handheld --remove-all
 
 ## Related Guides
 
-- [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
+- [OEP CLI Installer README](https://github.com/open-edge-platform/edge-ai-libraries/blob/release-2026.3.0/frameworks/oep-installer-cli/README.md) — full command reference, options, and credentials handling.
 - [Customized Image](./customized-image.md) — OS image build and bootable-USB provisioning path.

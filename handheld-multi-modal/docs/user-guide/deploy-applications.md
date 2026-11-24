@@ -69,7 +69,7 @@ docker info | grep -i proxy
 If `edgepack-cli` wasn't installed in previous steps, start by installing it:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/main/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
+curl -fsSL https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/refs/heads/release-2026.3.0/frameworks/oep-installer-cli/rendered/openedge-cli > /tmp/openedge-cli
 sudo chmod +x /tmp/openedge-cli
 sudo mv /tmp/openedge-cli /usr/bin
 ```
