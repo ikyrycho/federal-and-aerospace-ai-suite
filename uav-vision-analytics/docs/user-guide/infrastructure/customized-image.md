@@ -28,7 +28,7 @@ This article will show you how to:
 ### Clone the repositories
 
 ```bash
-git clone -b main https://github.com/open-edge-platform/image-composer-tool.git
+git clone -b main https://github.com/open-edge-platform/image-composer-tool.git #TODO
 ```
 
 Now, you should have the source code available in the `image-composer-tool` directory in your workspace (for example, `/home/user`).
