@@ -159,7 +159,7 @@ Expected artifact:
 
 After ISO is created, use preferred way of installation (such as USB stick or KVM) to install it on target system. Following commands explain how to write image to USB stick:
 
-Run `lsblk` to undestand how USB stick is mapped to local filesystem. In this case, it is `/dev/sdb`
+Run `lsblk` to understand how USB stick is mapped to local filesystem. In this case, it is `/dev/sdb`
 
 ```bash
 $ lsblk
