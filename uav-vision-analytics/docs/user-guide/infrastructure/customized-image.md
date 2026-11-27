@@ -70,7 +70,7 @@ The default template location is `$ICT_HOME/image-templates/ubuntu24` or `$ICT_H
 export TEMPLATE="$ICT_HOME/image-templates/ubuntu24/ubuntu24-x86_64-fedaero-uncrewed-aerial-vehicle-blueprint-docker-unattended-iso.yml"
 ```
 
-In parent's `$ICT_HOME/image-templates/ubuntu24/ubuntu24-x86_64-edgepack-unattended-iso.yml`, set the values for `users.name` and `users.password` as desired.
+In parent's `$ICT_HOME/image-templates/ubuntu24/ubuntu24-x86_64-edgepack-server-unattended-iso.yml`, set the values for `users.name` and `users.password` as desired.
 The password must contain a SHA-512 hash generated using one of the following tools:
 
 ```bash
@@ -81,7 +81,7 @@ openssl passwd -6 'your-password-here'
 mkpasswd --method=sha-512 'your-password-here'
 ```
 
-Optionally, if image will be deployed in environment that requires proxy, open `$ICT_HOME/image-templates/ubuntu24/ubuntu24-x86_64-edgepack-unattended-iso.yml` file and configure proxy in `users.proxy` section.
+Optionally, if image will be deployed in environment that requires proxy, open `$ICT_HOME/image-templates/ubuntu24/ubuntu24-x86_64-edgepack-server-unattended-iso.yml` file and configure proxy in `users.proxy` section.
 
 Adapt this template to suit your use case. The advanced customization options are discussed in the [Package curation and template customization](#package-curation-and-template-customization) section below.
 
